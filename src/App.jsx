@@ -4,7 +4,7 @@ export default function App() {
       <header className="topbar">
         <div className="logo-area">
           <div className="logo-main">魔法少女ノ魔女裁判</div>
-          <div className="logo-sub">made by 計画性のないナノカちゃん</div>
+          <div className="logo-sub">非公式ファンサイト</div>
         </div>
 
         <nav className="nav">
@@ -15,7 +15,7 @@ export default function App() {
       <main className="hero">
         <div className="hero-overlay">
           <section className="hero-inner">
-            <p className="mini">非公式ファンサイト</p>
+            <p className="mini">made by 計画性のないナノカちゃん</p>
             <h1>魔法少女ノ魔女裁判</h1>
             <p className="desc">
               ※ネタバレ注意
