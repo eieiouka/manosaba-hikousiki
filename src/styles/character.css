@@ -1,0 +1,65 @@
+.characters {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 56px 20px 80px;
+}
+
+.character-label {
+  font-size: 1.5rem;        /* ← ここで大きさ調整 */
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+}
+
+.section-title-wrap {
+  margin-bottom: 32px;
+}
+
+.section-mini {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  letter-spacing: 0.28em;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.section-title {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 0.08em;
+}
+
+.character-feature {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 32px;
+  align-items: center;
+  padding: 28px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.character-image {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+}
+
+.character-text h3 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: 0.08em;
+}
+
+.character-desc {
+  line-height: 2;
+}
+
+@media (max-width: 900px) {
+  .character-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .character-image {
+    height: 360px;
+  }
+}
