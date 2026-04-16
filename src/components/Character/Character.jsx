@@ -50,6 +50,30 @@ export default function Character() {
           </p>
         </div>
       </article>
+
+      <article className="character-feature">
+        <img
+          src="/character03.png"
+          alt="夏目 アンアン"
+          className="character-image"
+        />
+
+        <div className="character-text">
+          <p className="character-label">囚人番号 660</p>
+          <h3>夏目 アンアン</h3>
+          <p className="character-desc">
+            読み：ヒッキー<br />
+            バカ。シンプルに頭が悪い。まともに会話すらできない。<br />
+            唯一の取柄である小説もロクに完成させられない。<br />
+            肝心の内容もクソつまらない。完成させて批評を貰う経験が圧倒的に少ないからである。粗末なものでも完成させて、他人の評価を仰ぐべきだが、こいつにそんな度胸はない。<br />
+            ずっと引きこもっていたため、世間知らずで常識知らず。<br />
+            殺人事件で皆が敏感になっている中、遊びで狂言自殺をするバカ。なにが「周りの雰囲気を和ませたい」だ。<br />
+            佐伯ミリアのクソしょうもない嘘に騙されて、本命（桜羽エマ）を殺し損ねる無能。殺害動機もマジでくだらない。<br />
+            魔女裁判になると、急に饒舌になる。だが、社会経験のないヒキニートにロクな語彙力はないため、反論の質もゴミ。<br />
+            すべてにおいて、残念な女である。
+          </p>
+        </div>
+      </article>
     </section>
   );
 }
