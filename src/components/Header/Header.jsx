@@ -9,7 +9,9 @@ export default function Header() {
       </div>
 
       <nav className="nav">
+        <a href="#news">最新情報</a>
         <a href="#characters">キャラクター紹介</a>
+        <a href="#portal">ナノちゃんポータル</a>
       </nav>
     </header>
   );
