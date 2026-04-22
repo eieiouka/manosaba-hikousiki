@@ -1,6 +1,9 @@
 import "./Character.css";
+import { useState } from "react";
 
 export default function Character() {
+  const [showBalloon, setShowBalloon] = useState(false);
+
   return (
     <section id="characters" className="characters">
       <div className="section-title-wrap">
@@ -32,7 +35,7 @@ export default function Character() {
       <article className="character-feature">
         <img
           src="/character02.png"
-          alt="キャラ名"
+          alt="二階堂 ヒロ"
           className="character-image"
         />
 
@@ -95,6 +98,43 @@ export default function Character() {
             日頃から素行が悪く、桜羽エマの手には負えなかった。蓮見レイアの不意討ちに遭い、二階堂ヒロの管理下に置かれる。<br />
             たびたび暴言を吐いては二階堂ヒロを困らせるが、内心では自分を律してくれるヒロに好意を抱いている。<br />
             しかし、夏目アンアンに拙い絵を見られたことで激昂し、彼女を殺害。魔女として処刑され、溺死によって最期を遂げた。
+          </p>
+        </div>
+      </article>
+
+      <article className="character-feature">
+        <img
+          src="/character05.png"
+          alt="蓮見 レイア"
+          className="character-image"
+        />
+
+        <div className="character-text">
+          <p className="character-label">囚人番号 662</p>
+          <h3>蓮見 レイア</h3>
+          <p className="character-desc">
+            読み：レイア<br />
+            承認欲求モンスター。<br />
+            視線誘導の魔法を持ち、アイドル業として人気を集めるために悪用するクズ。<br />
+            他人の評判を下げて蹴落とす、倫理観のなさも持ち合わせている。まるで、どこぞのバカ犬のよう。イライラする。なにが「計画性がない」だ。<br />
+            牢屋敷内で、
+            <span className="popup-wrap">
+              <span
+                className="popup-word"
+                onClick={() => setShowBalloon(!showBalloon)}
+              >
+                バルーン
+              </span>
+
+              {showBalloon && (
+                <span className="popup-box">
+                  正体は城ケ崎ノア！
+                </span>
+              )}
+            </span>
+            という有名アーティストと鉢合わせ、つい殺してしまう。<br />
+            凶器は、レイピアと箒をつなげ、そこに矢を<strong><u>黒部ナノカのリボンで</u></strong>結んだクソスピア。他人のリボンを凶器に使うな。<br />
+            そんな適当に作った凶器が壊れないはずがなく、案の定バラバラになってしまう。それが証拠で処刑される。バカである。<br />
           </p>
         </div>
       </article>
