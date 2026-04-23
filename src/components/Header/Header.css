@@ -9,6 +9,9 @@
   position: sticky;
   top: 0;
   z-index: 20;
+
+  gap: 16px;
+  overflow: hidden; /* はみ出し防止 */
 }
 
 .logo-area {
@@ -17,6 +20,7 @@
   justify-content: center;
   line-height: 1.05;
   min-width: 160px;
+  flex-shrink: 0; /* ロゴ潰れ防止 */
 }
 
 .logo-main {
@@ -35,14 +39,59 @@
 .nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex: 1;
+  gap: 4px;
+  min-width: 0;
+
+  overflow-x: auto; /* 横スクロール可能 */
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+
+  flex-shrink: 1;
+  scroll-behavior: smooth;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
 }
 
 .nav a {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
-  padding: 10px 18px;
+  letter-spacing: 0.06em;
+  padding: 10px 14px;
   white-space: nowrap;
+
+  flex: 0 0 auto; /* 押せる幅確保 */
+}
+
+/* スマホ対応 */
+@media (max-width: 768px) {
+  .topbar {
+    padding: 0 12px;
+    gap: 10px;
+  }
+
+  .logo-area {
+    min-width: 120px;
+  }
+
+  .logo-main {
+    font-size: 1.15rem;
+    letter-spacing: 0.04em;
+  }
+
+  .logo-sub {
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+  }
+
+  .nav a {
+    font-size: 0.9rem;
+    padding: 10px 10px;
+  }
 }
