@@ -11,7 +11,23 @@
   z-index: 20;
 
   gap: 16px;
-  overflow: hidden; /* はみ出し防止 */
+  overflow: hidden;
+}
+
+/* 右側フェード（スクロール可能の視覚ヒント） */
+.topbar::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 36px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.92)
+  );
 }
 
 .logo-area {
@@ -20,7 +36,7 @@
   justify-content: center;
   line-height: 1.05;
   min-width: 160px;
-  flex-shrink: 0; /* ロゴ潰れ防止 */
+  flex-shrink: 0;
 }
 
 .logo-main {
@@ -44,7 +60,7 @@
   gap: 4px;
   min-width: 0;
 
-  overflow-x: auto; /* 横スクロール可能 */
+  overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
 
@@ -66,7 +82,7 @@
   padding: 10px 14px;
   white-space: nowrap;
 
-  flex: 0 0 auto; /* 押せる幅確保 */
+  flex: 0 0 auto;
 }
 
 /* スマホ対応 */
