@@ -69,6 +69,10 @@
 
   flex-shrink: 1;
   scroll-behavior: smooth;
+
+  background: rgba(255, 255, 255, 0.06); /* ←ここ追加 */
+  border-radius: 10px; /* ちょい丸くして違いを出す */
+  padding: 4px 6px;
 }
 
 .nav::-webkit-scrollbar {
