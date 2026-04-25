@@ -137,6 +137,27 @@ export default function Character() {
           </p>
         </div>
       </article>
+
+      <article className="character-feature">
+        <img
+          src="/character06.png"
+          alt="佐伯 ミリア"
+          className="character-image"
+        />
+
+        <div className="character-text">
+          <p className="character-label">囚人番号 663</p>
+          <h3>佐伯 ミリア</h3>
+          <p className="character-desc">
+            読み：オッサン<br />
+            LINEに自分の裸画像を載せるバカ。SNSに拡散されてギャーギャー騒ぐ始末。自分が蒔いた種のくせに、被害者面だけは一丁前である。<br />
+            「入れ替わり」の魔法を持ち、他人と密に接すると人格が入れ替わる。宝生マーゴと一度入れ替わったらしい。一体、どんな関係を持ったのだろうか。だから、マーゴの房はカーテンで隠されているのか。<br />
+            なれはてに少し優しくされるだけで、簡単に騙されるアホ。交友関係が築けるなどと戯言をほざく。なれはてはミリアの体が欲しいだけで、交友関係など興味もない。<br />
+            このガキは、他人の性善説を信じすぎている。<br />
+            世の中には、救いようのない人間が大量にいることを学ばないと、いずれ体目当てのクズに引っ掛かってしまう。
+          </p>
+        </div>
+      </article>
     </section>
   );
 }
