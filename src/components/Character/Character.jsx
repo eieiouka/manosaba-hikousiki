@@ -158,6 +158,28 @@ export default function Character() {
           </p>
         </div>
       </article>
+
+      <article className="character-feature">
+        <img
+          src="/character07.png"
+          alt="宝生 マーゴ"
+          className="character-image"
+        />
+
+        <div className="character-text">
+          <p className="character-label">囚人番号 664</p>
+          <h3>宝生 マーゴ</h3>
+          <p className="character-desc">
+            読み：コエマネ　サギシ<br />
+            年端もいかぬガキの分際で、詐欺に手を出して日銭を稼ぐクズ。最近はマーゴ券を貸し出し、利息で生計を立てている。<br />
+            歪んだ愛情を持っており、愛ゆえに氷上メルルを殺害した。銀色の髪や飛び散る血を自分のものにしたかったと供述している。何言ってんだこいつ。<br />
+            他人に身勝手な愛情を抱く癖に、自分が愛されるとヒステリックを起こす。<br />
+            他人にはするが、自分がされた時はご免被る。通らないだろう、いくらなんでもそれは。<br />
+            タロット占いをするが、16（塔）の出現率がおかしい。<br />
+            確率操作の疑いをかけられており、認められれば3年以下の拘留刑に処される。
+          </p>
+        </div>
+      </article>
     </section>
   );
 }
