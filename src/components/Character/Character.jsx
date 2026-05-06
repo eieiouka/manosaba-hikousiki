@@ -179,6 +179,28 @@ export default function Character() {
           </p>
         </div>
       </article>
+
+      <article className="character-feature">
+        <img
+          src="/character08.png"
+          alt="黒部 ナノカ"
+          className="character-image"
+        />
+
+        <div className="character-text">
+          <p className="character-label">囚人番号 665</p>
+          <h3>黒部 ナノカ</h3>
+          <p className="character-desc">
+            読み：ナノチャン<br />
+            自他ともに認める、天才少女。<br />
+            潜伏能力が非常に高く、独自の侵入・脱出経路を確保して単独行動を繰り返す。だが、情報の抱え落ちは決してしない。<br />
+            なぜか舐められがちだが、戦闘能力は最強クラス。<br />
+            急所への銃撃で蓮見レイアや橘シェリーを一撃で仕留め、火かき棒を振り回す二階堂ヒロを体当たりで吹き飛ばす。紫藤アリサの拳を難なく躱し、頭を握りつぶして返り討ちにする。<br />
+            実は近距離戦の方が強く、魔女化が絡まなければ無双できるフィジカルの持ち主。天敵は橘シェリーで、脚力が増した俊敏なステップで銃弾を躱されると勝ち目がない。<br />
+            しばらく引きこもっていたため、精神年齢がやや幼いのが難点。単独行動の立ち回りが難しいのはあるが、行動がしばしば空回りしているのが目立つ。
+          </p>
+        </div>
+      </article>
     </section>
   );
 }
