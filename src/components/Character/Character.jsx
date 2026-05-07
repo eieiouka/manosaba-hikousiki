@@ -201,6 +201,26 @@ export default function Character() {
           </p>
         </div>
       </article>
+
+      <article className="character-feature">
+        <img
+          src="/character09.png"
+          alt="紫藤 アリサ"
+          className="character-image"
+        />
+
+        <div className="character-text">
+          <p className="character-label">囚人番号 666</p>
+          <h3>紫藤 アリサ</h3>
+          <p className="character-desc">
+            読み：ヤンキー<br />
+            典型的な不良少女。家出して喧嘩ばかり…しているのだが、普通に弱い。身の程知らずに黒部ナノカや橘シェリーに歯向かい、呆気なく返り討ちに遭っている。<br />
+            喧嘩慣れしていない桜羽エマを絞殺しようとするも、あっさり振り解かれてしまう。お前は誰になら勝てるんだ。<br />
+            あちこちに噛みついて回るくせに、ちょっとおだてられると簡単に絆されてしまう。桜羽エマに付け込まれ、脱獄の駒として良いように扱われる。<br />
+            こんな有様なのに、どうやって2年間もアングラな世界で生活できたのか不思議である。DV男に捕まって虐待されたり、誘拐に遭って体を売られるのが関の山だろう。
+          </p>
+        </div>
+      </article>
     </section>
   );
 }
