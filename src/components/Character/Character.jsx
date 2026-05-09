@@ -264,6 +264,26 @@ export default function Character() {
           </p>
         </div>
       </article>
+
+      <article className="character-feature">
+        <img
+          src="/character12.png"
+          alt="沢渡 ココ"
+          className="character-image"
+        />
+
+        <div className="character-text">
+          <p className="character-label">囚人番号 669</p>
+          <h3>沢渡 ココ</h3>
+          <p className="character-desc">
+            読み：ヒトリデ　オオサワギ<br />
+            千里眼の魔法を持ち、自分やその写真が視界に映った人の行動を覗くことができる。盗撮カメラの代わりになるので、好きな男子のカバンに自分の写真を仕込んで、プライベートの行動を覗く常習犯。…嘘である。<br />
+            連続大量殺人の被害者であり、家族が殺される中で自分だけが生き残ってしまう。そのせいでマスコミに追われることとなり、過酷な生活を強いられる。<br />
+            千里眼の魔法を持っているせいで、牢屋敷に収監されてしまう。死んだ方がマシなレベルで散々な目に遭っている、可哀想な子である。<br />
+            そんな境遇を憂いた黒部ナノカが、自分の命と引き換えに銃殺する。シェリー×ハンナ並みの感動ストーリーがそこにある。
+          </p>
+        </div>
+      </article>
     </section>
   );
 }
