@@ -243,6 +243,28 @@ export default function Character() {
           </p>
         </div>
       </article>
+
+      <article className="character-feature">
+        <img
+          src="/character11.png"
+          alt="遠野 ハンナ"
+          className="character-image"
+        />
+
+        <div className="character-text">
+          <p className="character-label">囚人番号 668</p>
+          <h3>遠野 ハンナ</h3>
+          <p className="character-desc">
+            読み：ワガママ　オジョウ<br />
+            浮遊の魔法を持っており、数センチなら浮ける。<br />
+            足跡を残さない犯行が可能なので、魔女裁判でやたら疑われる。主に疑いをかけるのは橘シェリーである。<br />
+            そのくせ、ロクに自己弁護せず、桜羽エマに弁明責任を押し付けるクズっぷり。自分のケツを自分で拭かない。<br />
+            病気の妹を放置して空を飛ぶ練習に明け暮れるカス。妹が死んでから事態の重大さに気づく。<br />
+            どう考えても自分が悪いのに、置き去りにされるのが嫌だとかほざく。置き去りにしたのはお前じゃボケ。<br />
+            とにかく要求がおこがましく、牢屋敷でも「魔女になりたくない」だのうるさい。そんなに嫌なら自殺すれば良いのに、橘シェリーに「殺してくれ」とせがむ。真に受けたシェリーが本当に殺し、処刑されてしまう。最悪である。
+          </p>
+        </div>
+      </article>
     </section>
   );
 }
