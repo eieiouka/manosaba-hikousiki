@@ -293,7 +293,7 @@ export default function Character() {
         />
 
         <div className="character-text">
-          <p className="character-label">囚人番号 669</p>
+          <p className="character-label">囚人番号 670</p>
           <h3>氷上 メルル</h3>
           <p className="character-desc">
             読み：クズ<br />
