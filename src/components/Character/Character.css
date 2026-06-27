@@ -159,3 +159,11 @@
   font-size: 1.1em;
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .released-note {
+    display: block;
+    margin-left: 0;
+    margin-top: 4px;
+  }
+}
