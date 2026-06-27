@@ -22,10 +22,18 @@ export default function Character() {
           そうなってから「やだ、助けてよぉ」などと命乞いを始めるが、誰も助けには来ない。遠野ハンナの処刑時は助けに行った橘シェリーもダンマリである。興味がないのだろう。
         </>
       ),
-      after: <>（未定）</>,
-    },
-    {
-      image: "/character02.png",
+      after: (
+        <>
+          月代ユキが魔女因子をすべて引き取ったことが確認され、精密検査の後に牢屋敷から釈放された。<br />
+          元々、通う予定だった高校への編入が決まり、新たな生活を始めることとなった。<br />
+          親元で平和に暮らしていたが、宝生マーゴにポーカーを勧められてから生活が一変。他人を騙す快感を覚え、その魅力に惹かれてしまう。<br />
+          牢屋敷メンバーとの対戦では物足りなくなり、オンラインカジノに手を出すようになる。初めは自分の小遣いを賭けていたが、やがて二階堂ヒロや橘シェリー、遠野ハンナを騙して得た金銭を賭け始める。
+        </>
+      ),
+      },
+      {
+  image: "/character02.png",
+  afterImage: "/character02-after.png",
       alt: "二階堂 ヒロ",
       label: "囚人番号 659",
       name: "二階堂 ヒロ",
@@ -43,6 +51,7 @@ export default function Character() {
     },
     {
       image: "/character03.png",
+      afterImage: "/character03-after.png",
       alt: "夏目 アンアン",
       label: "囚人番号 660",
       name: "夏目 アンアン",
@@ -64,6 +73,7 @@ export default function Character() {
     },
     {
       image: "/character04.png",
+      afterImage: "/character04-after.png",
       alt: "城ケ崎 ノア",
       label: "囚人番号 661",
       name: "城ケ崎 ノア",
@@ -83,6 +93,7 @@ export default function Character() {
     },
     {
       image: "/character05.png",
+      afterImage: "/character05-after.png",
       alt: "蓮見 レイア",
       label: "囚人番号 662",
       name: "蓮見 レイア",
@@ -115,6 +126,7 @@ export default function Character() {
     },
     {
       image: "/character06.png",
+      afterImage: "/character06-after.png",
       alt: "佐伯 ミリア",
       label: "囚人番号 663",
       name: "佐伯 ミリア",
@@ -132,6 +144,7 @@ export default function Character() {
     },
     {
       image: "/character07.png",
+      afterImage: "/character07-after.png",
       alt: "宝生 マーゴ",
       label: "囚人番号 664",
       name: "宝生 マーゴ",
@@ -149,6 +162,7 @@ export default function Character() {
     },
     {
       image: "/character08.png",
+      afterImage: "/character08-after.png",
       alt: "黒部 ナノカ",
       label: "囚人番号 665",
       name: "黒部 ナノカ",
@@ -167,6 +181,7 @@ export default function Character() {
     },
     {
       image: "/character09.png",
+      afterImage: "/character09-after.png",
       alt: "紫藤 アリサ",
       label: "囚人番号 666",
       name: "紫藤 アリサ",
@@ -183,6 +198,7 @@ export default function Character() {
     },
     {
       image: "/character10.png",
+      afterImage: "/character10-after.png",
       alt: "橘 シェリー",
       label: "囚人番号 667",
       name: "橘 シェリー",
@@ -201,6 +217,7 @@ export default function Character() {
     },
     {
       image: "/character11.png",
+      afterImage: "/character11-after.png",
       alt: "遠野 ハンナ",
       label: "囚人番号 668",
       name: "遠野 ハンナ",
@@ -219,6 +236,7 @@ export default function Character() {
     },
     {
       image: "/character12.png",
+      afterImage: "/character12-after.png",
       alt: "沢渡 ココ",
       label: "囚人番号 669",
       name: "沢渡 ココ",
@@ -235,6 +253,7 @@ export default function Character() {
     },
     {
       image: "/character13.png",
+      afterImage: "/character13-after.png",
       alt: "氷上 メルル",
       label: "囚人番号 670",
       name: "氷上 メルル",
@@ -252,6 +271,7 @@ export default function Character() {
     },
     {
       image: "/character14.png",
+      afterImage: "/character14-after.png",
       alt: "黒部 ホノカ",
       label: "囚人番号 639",
       name: "黒部 ホノカ",
